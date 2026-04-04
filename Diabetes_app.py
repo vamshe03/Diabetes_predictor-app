@@ -63,7 +63,7 @@ st.write(user_data)
 
 
 # MODEL (LOAD LOGISTIC REGRESSION MODEL)
-model = joblib.load(r"C:\Users\vamsi\OneDrive\Desktop\DS Assignments\model.pkl")
+model = joblib.load("model.pkl")
 user_result = model.predict(user_data)
 
 
